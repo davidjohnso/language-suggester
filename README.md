@@ -11,6 +11,8 @@
 
 ## Description
 
+[Language Suggester](https://davidjohnso.github.io/language-suggester/) is an application for future students that asks a series of questions about themselves and provids a language suggestion based on their answers.
+
 ## Setup/Installation Requirements
 
 ## Known Bugs
