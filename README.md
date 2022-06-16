@@ -15,6 +15,11 @@
 
 ## Setup/Installation Requirements
 
+* Navigate to my Github: https://github.com/davidjohnso/language-suggester.
+* Clone the repository to your desktop.
+* Navigate to the top level directory.
+* Open index.html in your browser.
+
 ## Known Bugs
 
 ## License
