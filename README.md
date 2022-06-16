@@ -22,4 +22,10 @@
 
 ## Known Bugs
 
+*  No known bugs currently.
+
 ## License
+
+This project is licensed under the terms of the MIT license.
+
+Copyright (c) 2022 David Johnson
