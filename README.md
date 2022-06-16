@@ -4,6 +4,11 @@
 
 ## Technologies Used
 
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+
 ## Description
 
 ## Setup/Installation Requirements
