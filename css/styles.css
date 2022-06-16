@@ -6,3 +6,7 @@ button {
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
+
+#main-image {
+  flex-grow: 0;
+}
