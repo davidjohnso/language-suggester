@@ -19,3 +19,7 @@ button {
   height: 50vh;
   width: 100%;
 }
+
+#java, #python, #c-sharp, #python, #rust, #swift, #ruby-react {
+  display:none;
+}
