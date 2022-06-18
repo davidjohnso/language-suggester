@@ -5,7 +5,9 @@ function leaveButtonAlert(event) {
 };
 
 //User Interface Logic
-window.addEventListener("load", function() {
-  const button = document.getElementById("button-two");
-  button.addEventListener("click",leaveButtonAlert);
-});
+window.onload = function() {
+  window.addEventListener("load", function() {
+    const button = document.getElementById("button-two");
+    button.addEventListener("click",leaveButtonAlert);
+  });
+};
