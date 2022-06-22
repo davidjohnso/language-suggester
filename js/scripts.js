@@ -2,10 +2,6 @@
 function leaveAlert() {
   alert("Where do you think your going! You can't leave yet!");
 };
-//Business Logic
-function leaveAlert() {
-  alert("Where do you think your going! You can't leave yet!");
-};
 
 function getValues() {
   const quesOne = document.getElementById("question-one").value;
@@ -23,7 +19,8 @@ function getValues() {
 
 // User Interface Logic
 window.addEventListener("load", function(event) {
-  let form = document.getElementById("button-two");
-  form.addEventListener("click", leaveAlert);
   event.preventDefault();
 });
+
+let form = document.getElementById("button-two");
+form.addEventListener("click", leaveAlert);
