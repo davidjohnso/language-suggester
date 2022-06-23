@@ -26,6 +26,6 @@
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the [MIT license](LICENSE).
 
 Copyright (c) 2022 David Johnson
