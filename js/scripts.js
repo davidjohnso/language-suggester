@@ -9,18 +9,9 @@ function getValues() {
   const quesThree = document.getElementById("question-three").value;
   const quesFour = document.getElementById("question-four").value;
   const quesFive = document.getElementById("question-five").value;
-
-  document.querySelector("input#question-one").innerText = quesOne;
-  document.querySelector("input#question-two").innerText = quesTwo;
-  document.querySelector("input#question-three").innerText = quesThree;
-  document.querySelector("input#question-four").innerText = quesFour;
-  document.querySelector("input#question-five").innerText = quesFive;
 };
 
 // User Interface Logic
-window.addEventListener("load", function(event) {
-  event.preventDefault();
-});
+// let form = document.getElementById("button-two");
+// form.addEventListener("click", leaveAlert);
 
-let form = document.getElementById("button-two");
-form.addEventListener("click", leaveAlert);
