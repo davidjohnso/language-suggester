@@ -15,14 +15,7 @@ window.onload = function() {
     console.log(quesOne);
   };
 
-  if(quesOne === "no" || quesFive === "yes" ) {
-    const container = document.getElementsByClassName("container");
-    container.styles = "display:none"
-    const java = ducument.getElementById("java");
-    java.styles = "display:show";
-  }
-
-  // if(button-two) {
+    // if(button-two) {
   //   let leaveButton = document.getElementById("button-two");
   //   leaveButton.addEventListener("click", leaveAlert);
   // }
