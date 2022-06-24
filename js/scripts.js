@@ -3,15 +3,27 @@ function leaveAlert() {
   alert("Where do you think your going! You can't leave yet!");
 };
 
-function getValues() {
-  const quesOne = document.getElementById("question-one").value;
-  const quesTwo = document.getElementById("question-two").value;
-  const quesThree = document.getElementById("question-three").value;
-  const quesFour = document.getElementById("question-four").value;
-  const quesFive = document.getElementById("question-five").value;
-};
-
 // User Interface Logic
-// let form = document.getElementById("button-two");
-// form.addEventListener("click", leaveAlert);
+window.onload = function() {
+  document.querySelector("form").onsubmit = function(event) {
+    const quesOne = document.getElementById("question-one").value.toLowerCase();
+    const quesTwo = document.getElementById("question-two").value.toLowerCase();
+    const quesThree = document.getElementById("question-three").value.toLowerCase();
+    const quesFour = document.getElementById("question-four").value.toLowerCase();
+    const quesFive = document.getElementById("question-five").value.toLowerCase();
+    event.preventDefault();
+    console.log(quesOne);
+  };
 
+  if(quesOne === "no" || quesFive === "yes" ) {
+    const container = document.getElementsByClassName("container");
+    container.styles = "display:none"
+    const java = ducument.getElementById("java");
+    java.styles = "display:show";
+  }
+
+  // if(button-two) {
+  //   let leaveButton = document.getElementById("button-two");
+  //   leaveButton.addEventListener("click", leaveAlert);
+  // }
+};
