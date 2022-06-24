@@ -14,9 +14,4 @@ window.onload = function() {
     event.preventDefault();
     console.log(quesOne);
   };
-
-    // if(button-two) {
-  //   let leaveButton = document.getElementById("button-two");
-  //   leaveButton.addEventListener("click", leaveAlert);
-  // }
 };
