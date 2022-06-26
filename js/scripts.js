@@ -14,9 +14,7 @@ window.onload = function() {
     const java = document.getElementById("java");
     const rust = document.getElementById("rust");
     const cSharp = document.getElementById("c-sharp");
-    const python = document.getElementById("python")
-
-    
+    const python = document.getElementById("python");
 
     if(quesOne === "no") {
       questions.style.display = "none";
