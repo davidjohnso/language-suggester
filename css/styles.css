@@ -22,4 +22,5 @@ button {
 
 #java, #c-sharp, #rust, #python{
   display: none;
+  text-align: center;
 }
