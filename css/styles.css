@@ -20,7 +20,7 @@ button {
   width: 100%;
 }
 
-#java, #c-sharp, #rust, #python{
+#java, #c-sharp, #rust, #python {
   display: none;
   text-align: center;
 }
