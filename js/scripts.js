@@ -10,11 +10,13 @@ window.onload = function() {
     const quesFour = document.getElementById("question-four").value.toLowerCase();
     const quesFive = document.getElementById("question-five").value.toLowerCase();
 
-    let questions = document.getElementById("questions");
-    let java = document.getElementById("java");
-    let rust = document.getElementById("rust");
-    let cSharp = document.getElementById("c-sharp");
-    let python = document.getElementById("python")
+    const questions = document.getElementById("questions");
+    const java = document.getElementById("java");
+    const rust = document.getElementById("rust");
+    const cSharp = document.getElementById("c-sharp");
+    const python = document.getElementById("python")
+
+    
 
     if(quesOne === "no") {
       questions.style.display = "none";
