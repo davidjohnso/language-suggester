@@ -20,6 +20,6 @@ button {
   width: 100%;
 }
 
-#java, #python, #c-sharp, #python, #rust, #swift, #ruby-react {
+#java, #c-sharp, #rust{
   display:none;
 }
